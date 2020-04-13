@@ -22,6 +22,9 @@ class Player extends FlxSprite {
 
 		drag.x = 1600;
 		drag.y = 1600;
+
+		setSize(8, 8);
+		offset.set(4, 4);
 	}
 
 	override function update(elapsed:Float) {
